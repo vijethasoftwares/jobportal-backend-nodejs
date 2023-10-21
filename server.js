@@ -23,7 +23,7 @@ app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: true }));
 
 // Connection to MongoDB
-mongoose.connect('mongodb+srv://User:<password>@cluster0.hdzinsx.mongodb.net/A2ZRecruit?retryWrites=true&w=majority', { useNewUrlParser: true, useUnifiedTopology: true });
+mongoose.connect('mongodb+srv://User:Vijetha23@job-portal.qtckqkt.mongodb.net/job-portal?retryWrites=true&w=majority');
 const connection = mongoose.connection;
 connection.once('open', function() {
     console.log("MongoDB database connection established successfully !");
